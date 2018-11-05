@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Simple Calculator">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+
+  </head>
+  <body>
+    <!-- drop down menu form -->
+    <form>
+      <br>Value 1: <input type="text" id="value1">
+      <br>Value 2: <input type="text" id="value2">
+      <br>Operator:
+      <select id="operator">
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+        <option value="mult">Multiply</option>
+        <option value="div">Divide</option>
+      </select>
+      <button type="button" onclick="calc()">Calculate</button>
+    </form>
+    <div id="results"></div>
+    <!-- buttons form -->
+    <form id="buttons" onclick="addVal()">
+      <br><input type="button" value="7" id="num7">
+          <input type="button" value="8" id="num8">
+          <input type="button" value="9" id="num9">
+          <input type="button" value="+" id="add">
+      <br><input type="button" value="4" id="num4">
+          <input type="button" value="5" id="num5">
+          <input type="button" value="6" id="num6">
+          <input type="button" value="-" id="sub">
+      <br><input type="button" value="1" id="num1">
+          <input type="button" value="2" id="num2">
+          <input type="button" value="3" id="num3">
+          <input type="button" value="*" id="mult">
+      <br><input type="button" value="C" id="clear">
+          <input type="button" value="0" id="num0">
+          <input type="button" value="=" id="equal">
+          <input type="button" value="/" id="div">
+    </form>
+    <div id="output"></div>
+
+  </body>
+  <script src="js/main.js"></script>
+</html>
