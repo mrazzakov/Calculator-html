@@ -1,2 +1,2 @@
-# practice-website
-calculator JS website
+# practice-calc
+calculator HTML website
